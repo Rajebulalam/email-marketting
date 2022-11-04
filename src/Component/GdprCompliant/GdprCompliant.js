@@ -39,7 +39,7 @@ const GdprCompliant = () => {
                     </div>
                 </div>
                 {/* Right Part */}
-                <div className='w-full p-7 right-gdpr pl-7 md:pl-[86px] h-[450px]'>
+                <div className='w-full p-7 right-gdpr pl-0 md:pl-[86px] h-[450px]'>
                     <div className='p-4 py-5 mt-10 bg-white right-top rounded-md shadow-xl w-[340px]'>
                         <img style={{ backgroundColor: '#E9F2FF' }} className='p-4 rounded-full' src={person} alt="personIcon" />
                         <h4 className='text-primary font-medium py-2'>Mail Support</h4>
@@ -57,7 +57,7 @@ const GdprCompliant = () => {
                         <img style={{ backgroundColor: '#E9F2FF' }} className='py-3 px-4 rounded-full' src={location} alt="personIcon" />
                         <h4 className='text-primary font-medium py-2'>Location Tracking</h4>
                         <p>accelerating your business and raising the bar.</p>
-                        <div className='email shadow-lg'>
+                        <div className='email hidden sm:flex shadow-lg'>
                             <img src={gmail} alt="gmail" />
                         </div>
                     </div>

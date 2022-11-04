@@ -22,3 +22,18 @@
     padding: 8px 20px;
     border-radius: 50%;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        padding: 0 10px !important;
+        top: 170px !important;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 8px !important;
+    }
+
+}

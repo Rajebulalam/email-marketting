@@ -53,4 +53,11 @@
         z-index: 99;
     }
 
+    .right-top .message {
+        position: absolute;
+        width: 250px;
+        top: -40px;
+        right: 0;
+    }
+
 }
