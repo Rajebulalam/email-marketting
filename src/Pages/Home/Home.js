@@ -7,6 +7,7 @@ import Conversation from '../../Component/Conversation/Conversation';
 import EmailMarketingTool from '../../Component/EmailMarketingTool/EmailMarketingTool';
 import GdprCompliant from '../../Component/GdprCompliant/GdprCompliant';
 import InboundMarketing from '../../Component/InboundMarketing/InboundMarketing';
+import LatestNews from '../../Component/LatestNews/LatestNews';
 import Testimonial from '../../Component/Testimonial/Testimonial';
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <Automation></Automation>
       <Testimonial></Testimonial>
       <Announce></Announce>
+      <LatestNews></LatestNews>
     </div>
   );
 };
