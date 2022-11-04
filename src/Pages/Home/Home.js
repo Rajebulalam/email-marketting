@@ -5,6 +5,7 @@ import Banner from '../../Component/Banner/Banner';
 import Certified from '../../Component/Certified/Certified';
 import Conversation from '../../Component/Conversation/Conversation';
 import EmailMarketingTool from '../../Component/EmailMarketingTool/EmailMarketingTool';
+import Footer from '../../Component/Footer/Footer';
 import GdprCompliant from '../../Component/GdprCompliant/GdprCompliant';
 import InboundMarketing from '../../Component/InboundMarketing/InboundMarketing';
 import LatestNews from '../../Component/LatestNews/LatestNews';
@@ -23,6 +24,7 @@ const Home = () => {
       <Testimonial></Testimonial>
       <Announce></Announce>
       <LatestNews></LatestNews>
+      <Footer></Footer>
     </div>
   );
 };
