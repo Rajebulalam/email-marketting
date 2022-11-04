@@ -6,6 +6,7 @@ import Conversation from '../../Component/Conversation/Conversation';
 import EmailMarketingTool from '../../Component/EmailMarketingTool/EmailMarketingTool';
 import GdprCompliant from '../../Component/GdprCompliant/GdprCompliant';
 import InboundMarketing from '../../Component/InboundMarketing/InboundMarketing';
+import Testimonial from '../../Component/Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <EmailMarketingTool></EmailMarketingTool>
       <Conversation></Conversation>
       <Automation></Automation>
+      <Testimonial></Testimonial>
     </div>
   );
 };
