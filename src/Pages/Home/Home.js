@@ -1,4 +1,5 @@
 import React from 'react';
+import Automation from '../../Component/Automation/Automation';
 import Banner from '../../Component/Banner/Banner';
 import Certified from '../../Component/Certified/Certified';
 import Conversation from '../../Component/Conversation/Conversation';
@@ -15,6 +16,7 @@ const Home = () => {
       <GdprCompliant></GdprCompliant>
       <EmailMarketingTool></EmailMarketingTool>
       <Conversation></Conversation>
+      <Automation></Automation>
     </div>
   );
 };
