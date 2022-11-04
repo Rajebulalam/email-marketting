@@ -1,4 +1,5 @@
 import React from 'react';
+import Announce from '../../Component/Announce/Announce';
 import Automation from '../../Component/Automation/Automation';
 import Banner from '../../Component/Banner/Banner';
 import Certified from '../../Component/Certified/Certified';
@@ -19,6 +20,7 @@ const Home = () => {
       <Conversation></Conversation>
       <Automation></Automation>
       <Testimonial></Testimonial>
+      <Announce></Announce>
     </div>
   );
 };
